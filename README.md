@@ -1,7 +1,7 @@
 # open-integrity-check
 **Open, EU based, hardware-backed attestation for Android & later Linux phones without Google Play Services required.**
 
-Security focused apps like banking apps are currently mostly relying on the Google Integrity API to verify that the client is running in a trusted enviroment. 
+Security focused apps like banking apps are currently mostly relying on the **Google Integrity API** to verify that the client is running in a trusted enviroment. 
 
 ## What
 * Rust verifier signs a JWT from TEE evidence.
