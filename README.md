@@ -24,4 +24,4 @@ I think it is time for an alternative to Google. And this inherits an alternativ
 
 ## Technical High level Overview
 
-![](Overview.svg)
+<img src="Overview.svg"/>
