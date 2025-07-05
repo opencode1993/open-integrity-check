@@ -25,7 +25,7 @@ I think it is time for an alternative to Google. And this inherits an alternativ
 ## Technical High level Overview
 
 Currently the Integrity checks run through googles servers.
-!["Overview of the current setup with the google integrity API"](Overview-Current-Setup.png)
+!["Overview of the current setup with the google integrity API"](Overview-Current-Setup.png?raw=true)
 
 I propose an alternative version with a European open source Plattform instead.
 
