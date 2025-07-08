@@ -29,4 +29,4 @@ Currently the Integrity checks run through googles servers.
 
 I propose an alternative version with a European open source Plattform instead.
 
-![Overview of the planned setup, replacing the google integrity API](Overview-planned-Setup.png)
+![Overview of the planned setup, replacing the google integrity API](/assets/Overview-Future-Setup.png)
