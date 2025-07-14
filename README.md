@@ -3,6 +3,14 @@
 
 ---
 **Open, EU located, hardware-backed attestation for Android & later Linux phones without Google Play Services required.**
+Open-Integrity-Check is a European alternative to Google’s Play Integrity API.
+It provides an SDK for app developers that mirrors the purpose of Google’s API: verifying OS integrity, bootloader status, and hardware-backed attestation using the standard Android Key Attestation mechanism. The goal is to make integration as easy as possible for security-critical apps like banking apps, many of which currently do not implement the Device Attestation API directly.
+
+The backend server receives the attestation data from the device, validates it against OEM root certificates, and returns a signed verdict. This verdict can then be forwarded to the bank’s backend, much like existing Play Integrity workflows.
+
+Because Google controls the Play Store, it can verify app checksums internally. Open-Integrity-Check cannot do this centrally, but developers can compute and register a known-good checksum for their APK, which our system will include in the verdict. Verifying a hash is simple and provides strong assurance against tampered app installs.
+
+All data flow is designed to be privacy-preserving and transparent. The infrastructure will be EU-hosted, fully open source, and compatible with custom ROMs like /e/OS and GrapheneOS, enabling digital sovereignty without sacrificing security.
 
 ## What is this about?
 
